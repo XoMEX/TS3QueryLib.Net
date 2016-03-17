@@ -17,7 +17,7 @@ namespace TS3QueryLib.Core.Server.Entities
 
         #region Public Methods
 
-        public static CustomInfoEntry Parse(CommandParameterGroup currentParameterGroup, CommandParameterGroup firstParameterGroup)
+        public static new CustomInfoEntry Parse(CommandParameterGroup currentParameterGroup, CommandParameterGroup firstParameterGroup)
         {
             if (currentParameterGroup == null)
                 throw new ArgumentNullException("currentParameterGroup");
